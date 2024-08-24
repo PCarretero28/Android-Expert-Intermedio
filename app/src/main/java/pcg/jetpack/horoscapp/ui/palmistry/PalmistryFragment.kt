@@ -5,11 +5,10 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import pcg.jetpack.horoscapp.R
-import pcg.jetpack.horoscapp.databinding.FragmentHoroscopeBinding
-import pcg.jetpack.horoscapp.databinding.FragmentLuckBinding
+import dagger.hilt.android.AndroidEntryPoint
 import pcg.jetpack.horoscapp.databinding.FragmentPalmistryBinding
 
+@AndroidEntryPoint
 class PalmistryFragment : Fragment() {
 
     private var _binding: FragmentPalmistryBinding? = null
