@@ -14,7 +14,6 @@ class HoroscopeViewModel @Inject constructor(): ViewModel() {
     private var _horoscope = MutableStateFlow<List<HoroscopeInfo>>(emptyList())
     val horoscope:StateFlow<List<HoroscopeInfo>> = _horoscope
 
-
     init {
         _horoscope.value = listOf(
             Aries, Gemini, Pisces, Capricorn, Sagittarius
